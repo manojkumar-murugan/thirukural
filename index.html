@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>குறள் அறி</title>
+    <script type="text/javascript" src="./kuralData.js"></script>
+    <script src="./script.jsx"></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    நல்வரவு
+    <div class="container">
+        நல்வரவு <br>
+        வள்ளுவன் தன்னை உலகினுக்கே தந்து வான்புகழ் கொண்ட தமிழ் நாடு
+        <form>
+            <input type="number" id="kuralNumber" />
+            <input type="button" value="குறளைத் தருக" onclick="displayKural();">
+        </form>
+        <div class="kuralDOM"></div>
+    </div>
 </body>
+
 </html>
