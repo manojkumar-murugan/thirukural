@@ -1,3 +1,15 @@
-.container{
-    text-align: center;
+.container {
+  text-align: center;
+  margin: 20px;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px #ccc;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
 }
