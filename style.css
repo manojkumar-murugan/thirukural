@@ -1,10 +1,3 @@
-* {
-  font-family: "InaiMathi", "Tamil Sangam MN",
-    /* For iOS 3+ and Mac */ "Nirmala UI", Latha, /* For Windows */ Bamini,
-    Roboto, /* For Android 4+ */ Noto, "Noto Sans Tamil",
-    /* For Ubuntu */ sans-serif; /* For Everything else */
-}
-
 .container {
   background-color: #cee5d0;
   text-align: center;
@@ -22,14 +15,6 @@ img {
   width: 150px;
 }
 
-.fetch-by-word {
-  float: left;
-}
-
-.fetch-by-number {
-  float: right;
-}
-
 .input-container {
   align-content: center;
 }
@@ -40,6 +25,7 @@ img {
   box-shadow: 0 2px 5px #ccc;
   color:#5e454b;
 }
+
 h3,h4{
     color: #5e454b;
 }
@@ -53,7 +39,6 @@ h3,h4{
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
-  /* margin: 4px 2px; */
   cursor: pointer;
 }
 

@@ -40,6 +40,7 @@ function displayKural(kuralNum) {
     "</div><hr><div><ul>பாப்பையா ஐயாவின் உரை</ul>" +
     kuralData.sp +
     "</div></div>";
+    console.log("test");
 }
 
 function getPrevKural() {
