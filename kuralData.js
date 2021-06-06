@@ -5620,7 +5620,7 @@ function getKuralData(kuralNumber) {
       },
       {
         Number: 298,
-        Line1: "புறள்தூய்மை நீரான் அமையும் அகந்தூய்மை",
+        Line1: "புறத்தூய்மை நீரான் அமையும் அகந்தூய்மை",
         Line2: "வாய்மையால் காணப் படும்.",
         Translation:
           "Water makes you pure outward  Truth renders you pure inward",
