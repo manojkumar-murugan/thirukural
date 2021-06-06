@@ -13,16 +13,24 @@
 <body>
     <div class="container">
         <div class="header">
-            நல்வரவு <br>
-            வள்ளுவன் தன்னை உலகினுக்கே தந்து வான்புகழ் கொண்ட தமிழ் நாடு
+            <!-- <h3>நல்வரவு !!</h3> -->
+            <h4>அணுவைத் துளைத்து ஏழ் கடலை புகட்டி குறுக்கத் தரித்த குறள் !</h4>
         </div>
         <div>
             <img src="./thiruvalluvar.png" alt="Thiruvalluvar Image">
         </div>
-        <form>
-            <input type="number" id="kuralNumber" placeholder="1 முதல் 1330 வரை"/><br/><br/>
-            <input type="button" value="குறளைத் தருக" onclick="displayKural();">
-        </form>
+        <div class="input-container">
+            <button onclick="getPrevKural();" class="button">முந்தைய குறள்</button>
+            <button onclick="getNextKural();" class="button">அடுத்த குறள்</button>
+            <br /><br/>
+            <div class="fetch--by-number">
+                <form>
+                    <input type="number" id="kuralNumber" placeholder="1 முதல் 1330 வரை" /><br /><br />
+                    <input type="submit" value="குறளைத் தருக" class="button" onclick="displayKural();">
+                </form>
+            </div>
+        </div>
+        <br>
         <div class="kuralDOM"></div>
     </div>
 </body>

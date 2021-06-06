@@ -1686,7 +1686,7 @@ function getKuralData(kuralNumber) {
       {
         Number: 90,
         Line1: "மோப்பக் குழையும் அனிச்சம் முகந்திரிந்து",
-        Line2: "நோக்கக் குநழ்யும் விருந்து.",
+        Line2: "நோக்கக் குழையும் விருந்து.",
         Translation:
           "Anicham smelt withers: like that  A wry-faced look withers the guest",
         mv:
@@ -18899,7 +18899,7 @@ function getKuralData(kuralNumber) {
       },
       {
         Number: 1000,
-        Line1: "ண்பிலான் பெற்ற பெருஞ்செல்வம் நன்பால்",
+        Line1: "பண்பிலான் பெற்ற பெருஞ்செல்வம் நன்பால்",
         Line2: "கலந்தீமை யால்திரிந் தற்று.",
         Translation:
           "The wealth heaped by the churlish base Is pure milk soured by impure vase",
